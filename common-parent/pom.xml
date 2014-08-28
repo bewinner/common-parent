@@ -15,4 +15,9 @@
       </plugin>
     </plugins>
   </build>
+  <scm>
+  	<developerConnection>scm:git:https://github.com/bewinner/common-parent.git</developerConnection>
+  	<connection>scm:git:https://github.com/bewinner/common-parent.git</connection>
+  	<url>https://github.com/bewinner/common-parent.git</url>
+  </scm>
 </project>

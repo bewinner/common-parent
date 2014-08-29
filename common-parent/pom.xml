@@ -6,7 +6,6 @@
 	<packaging>pom</packaging>
 
 	<distributionManagement>
-
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>snapshots</name>
@@ -19,6 +18,7 @@
 			<url>http://119.254.108.104/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -30,10 +30,11 @@
 			</plugin>
 		</plugins>
 	</build>
+
 	<scm>
-		<developerConnection>scm:git:https://github.com/bewinner/common-parent.git</developerConnection>
+		<!-- developerConnection>scm:git:https://github.com/bewinner/common-parent.git</developerConnection-->
 		<connection>scm:git:https://github.com/bewinner/common-parent.git</connection>
 		<url>https://github.com/bewinner/common-parent.git</url>
-	  <tag>HEAD</tag>
+		<tag>HEAD</tag>
   </scm>
 </project>
